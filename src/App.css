@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1c1c1c;
+  /* overflow: hidden; */
+}
+
+.containerDiv {
+  max-width: 1250px !important;
+  width: 100% !important;
+  margin: auto !important;
+  padding: 0 24px !important;
+}
+
+
+@keyframes App-logo-spin {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes snowflakes-shake {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes snowflakes-shake {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(80px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+.ecosystem-img {
+  animation: glowing 5000ms infinite;
+  border-radius: 100%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .animated {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 20px #e0bc38;
+  }
+
+  40% {
+    box-shadow: 0 0 100px #c88a26;
+  }
+
+  60% {
+    box-shadow: 0 0 100px #ea9e2b;
+  }
+
+  100% {
+    box-shadow: 0 0 20px #ce9a33;
+  }
+}
+
+@keyframes circle_rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation */
+
+@keyframes circle_rotation_anticlock {
+  0% {transform: rotate(360deg);}
+
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes animation_up_down{
+  0% {transform: translateY(0px);}
+  25% {transform: translateY(-10px);}
+  50% {transform: translateY(0px);}
+  75% {transform: translateY(10px);}
+  100% {transform: translateY(0px);}
+}
+
+@keyframes star_fall_animation{
+  0% {transform: translate(0);}
+  25% {transform: translate(60px, 7rem);}
+  50% {transform: translate(120px, 14rem);}
+  75% {transform: translate(180px, 21rem);}
+  100% {transform: translate(240px, 28rem);}
+}
+
+@media screen and (max-width: 768px) {
+  .containerDiv {
+    padding: 0 16px !important;
+  }
+}

@@ -1,0 +1,68 @@
+.sporsoredSection h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 40.55px;
+    margin: 0;
+}
+.diffColor{
+    color: #F19B2B;
+}
+.sporsoredSection p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    padding-top: 16px;
+}
+.sponsoredBrands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+.sponsor1 {
+    padding: 12px 0;
+}
+
+.sporsoredSection {
+    padding: 0rem 0 5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .sporsoredSection h1 {
+        font-size: 31px;
+        line-height: 30.55px;
+    }
+    .sporsoredSection p {
+        font-size: 12px;
+        line-height: 15px;
+        padding-top: 12px;
+    }
+
+    .sponsor1 {
+        padding: 8px 0;
+    }
+
+    .sponsoredBrands {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 3rem;
+        align-items: stretch;
+    }
+
+    .sponsor1 {
+        padding: 8px 0;
+        width: 50%;
+    }
+
+    .sporsoredSection {
+        padding: 0rem 0 4.5rem;
+    }
+    
+}

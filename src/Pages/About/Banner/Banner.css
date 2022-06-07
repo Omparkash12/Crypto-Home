@@ -1,0 +1,436 @@
+.bannerData1 h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 40.55px;
+  color: #fff;
+  margin: 0;
+}
+
+.bannerData1 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 2rem 0 2.5rem;
+  width: 83%;
+}
+
+a.learnMorebtn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 32px;
+  background: #E38D00;
+  border-radius: 7px;
+}
+
+.bannerBG {
+  background-color: #1C1C1C;
+}
+
+.bannerData {
+  padding: 15rem 0 8rem;
+}
+
+
+
+/* Orbit Section */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+/* .snow-animation {
+  position: relative;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running;
+}
+
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+}
+
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s, 1s;
+  animation-delay: 1s, 1s;
+}
+
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s, 0.5s;
+  animation-delay: 6s, 0.5s;
+}
+
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s, 2s;
+  animation-delay: 4s, 2s;
+}
+
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s, 2s;
+  animation-delay: 2s, 2s;
+}
+
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s, 3s;
+  animation-delay: 8s, 3s;
+}
+
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s, 2s;
+  animation-delay: 6s, 2s;
+}
+
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s, 1s;
+  animation-delay: 2.5s, 1s;
+}
+
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s, 0s;
+  animation-delay: 1s, 0s;
+}
+
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s, 1.5s;
+  animation-delay: 3s, 1.5s;
+}
+
+
+.bg-blur-ss {
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 0 0 30px 30px;
+  border-top: none;
+  background-repeat: no-repeat;
+} */
+
+
+/* Solar System Styles */
+/* .system {
+  position: relative;
+  width: 100%;
+  max-width: 590px;
+  padding-top: 100%;
+  margin: auto;
+  transform: translate(65%, 10px);
+} */
+
+.system {
+  position: relative;
+  width: 100vw;
+  max-width: 31vw;
+  padding-top: 31vw;
+  margin: auto;
+  transform: translate(65%, 10px);
+}
+
+.system__sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.system__orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid #B6853F;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  animation: spin infinite linear both;
+}
+
+.system__orbit:nth-child(1) {
+  width: calc(25%);
+  height: calc(25%);
+}
+
+.system__orbit:nth-child(2) {
+  width: calc(45%);
+  height: calc(45%);
+  opacity: 0.7;
+}
+
+.system__orbit:nth-child(3) {
+  width: calc(70%);
+  height: calc(70%);
+  opacity: 0.6;
+}
+
+.system__orbit:nth-child(4) {
+  width: calc(100%);
+  height: calc(100%);
+  opacity: 0.5;
+
+}
+
+.system__orbit:nth-child(5) {
+  width: calc(135%);
+  height: calc(135%);
+  opacity: 0.4;
+}
+
+.system__orbit:nth-child(6) {
+  width: calc(170%);
+  height: calc(170%);
+  opacity: 0.3;
+}
+
+.system__orbit:nth-child(7) {
+  width: calc(210%);
+  height: calc(210%);
+  opacity: 0.2;
+}
+
+.system__orbit--sun {
+  border: none;
+}
+
+.system__orbit--earth {
+  animation-duration: 4.1s;
+}
+
+.system__orbit--saturn {
+  animation-duration: 20.8s;
+}
+
+.system__orbit--pluto {
+  animation-duration: 120.3s;
+}
+
+.system__planet {
+  position: absolute;
+  top: 62%;
+  left: -12px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  transform: translateY(-50%);
+}
+
+.system__icon {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+
+  .bg-blur-ss {
+    background: unset !important;
+    border: none;
+    padding-top: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  img.brandImage4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .system__orbit:nth-child(1) {
+    width: calc(40%);
+    height: calc(40%);
+  }
+
+  .system__orbit:nth-child(2) {
+    width: calc(75%);
+    height: calc(75%);
+  }
+
+  .system__orbit:nth-child(3) {
+    width: calc(110%);
+    height: calc(110%);
+  }
+
+  .system__orbit:nth-child(4) {
+    width: calc(145%);
+    height: calc(145%);
+  }
+
+  .system__orbit:nth-child(5) {
+    width: calc(185%);
+    height: calc(185%);
+  }
+
+  .system__orbit:nth-child(6) {
+    width: calc(230%);
+    height: calc(230%);
+  }
+
+  .system__orbit:nth-child(7) {
+    width: calc(295%);
+    height: calc(295%);
+  }
+
+  .system {
+    transform: translate(18%, 10px);
+  }
+
+  .bannerData1 p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .bannerData {
+    text-align: center;
+  }
+
+  .bannerData1 p {
+    width: 76%;
+    margin: auto;
+    padding: 3rem 0 3.5rem;
+  }
+
+  .system {
+    position: absolute;
+    transform: translate(184%, -40%);
+  }
+
+  /* .system {
+    padding-top: 31vw;
+  }
+
+  .system__orbit {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  } */
+}
+
+@media screen and (max-width: 768px) {}
+
+
+@media screen and (max-width: 576px) {
+  /* .snowflake:nth-of-type(9) {
+    left: 50%;
+    animation-delay: 3s, 1.5s;
+  } */
+
+  .bannerData1 h1 {
+    font-size: 31px;
+    line-height: 30.55px;
+  }
+
+  .bannerData1 p {
+    font-size: 12px;
+    line-height: 14px;
+    width: 95%;
+    margin: auto;
+    padding: 2rem 0 3rem;
+  }
+
+  .bannerData {
+    padding: 10rem 0 6rem;
+  }
+
+  .bannerData1 {
+    z-index: 2;
+  }
+
+  .system__orbit:nth-child(1) {
+    width: calc(70%);
+    height: calc(70%);
+  }
+
+  .system__orbit:nth-child(2) {
+    width: calc(115%);
+    height: calc(115%);
+  }
+
+  .system__orbit:nth-child(3) {
+    width: calc(180%);
+    height: calc(180%);
+  }
+
+  .system__orbit:nth-child(4) {
+    width: calc(250%);
+    height: calc(250%);
+  }
+
+  .system__orbit:nth-child(5) {
+    width: calc(320%);
+    height: calc(320%);
+  }
+
+  .system__orbit:nth-child(6) {
+    width: calc(400%);
+    height: calc(400%);
+  }
+
+  .system__orbit:nth-child(7) {
+    width: calc(500%);
+    height: calc(500%);
+  }
+
+  .system {
+    position: absolute;
+    transform: translate(245%, -40%);
+  }
+
+
+}
+
+@media screen and (max-width: 428px) {
+
+  .bannerData1 p {
+    width: 100%;
+    margin: auto;
+    /* padding: 1rem 0 2rem; */
+  }
+}

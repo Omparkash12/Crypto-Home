@@ -1,0 +1,116 @@
+.storyData1 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.storyData1 p:nth-child(2) {
+    padding: 2rem 0;
+}
+
+ul.storyList li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.storyData2 h1 {
+    font-size: 91px;
+    line-height: 91px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin: 0;
+}
+
+.storyData2 p {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 8px;
+}
+
+.ourStorySetion {
+    padding: 3rem 0 5rem;
+}
+
+.storyData2 {
+    position: relative;
+}
+
+@media screen and (max-width: 991px) {
+    .storyData1 p {
+        width: 90%;
+    }    
+
+    .storyData2 {
+        position: relative;
+        padding-top: 5rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .ourStorySetion {
+        padding: 2rem 0 5rem;
+    }
+
+    .storyData1 p:nth-child(2) {
+        padding: 1rem 0;
+    }
+
+    .mainHeadingText h1 {
+        font-size: 31px;
+        line-height: 30.55px;
+        width: 100% !important;
+    }
+
+    .mainHeadingText p {
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 8px;
+        width: 77% !important;
+        margin: 0px auto;
+    }
+
+    .storyData1 p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    ul.storyList li {
+        font-size: 12px;
+        line-height: 22.79px;
+    }
+
+    .storyData2 h1 {
+        font-size: 81px;
+        line-height: 81px;
+    }
+
+    .storyData2 p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .storyData2 {
+        position: relative;
+        padding-top: 4.5rem;
+    }
+}
+
+
+@media screen and (max-width: 428px) {
+    .storyData1 p {
+        width: 100%;
+    }
+    .mainHeadingText p {
+        width: 77% !important;
+    }
+}

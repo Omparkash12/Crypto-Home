@@ -1,0 +1,415 @@
+.our_project_section .heading_text1 h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 20.77px;
+    margin: 0;
+    color: #939393;
+    padding-bottom: 8px;
+}
+.our_project_section .heading_text1 h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 40.55px;
+    color: #EFE0CB;
+    margin: 0;
+}
+.our_project_section .heading_text2 a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #939393;
+    padding: 12px 28px;
+    border: 1px solid #949292;
+    border-radius: 6px;
+}
+
+.our_project_section .project_heading {
+    padding-bottom: 10rem;
+}
+
+.our_project_section .ourProjectImg1 img {
+    max-width: 269px;
+    width: 100%;
+    height: 228px;
+}
+/* .ourProjectImg1 {
+    margin-bottom: -8rem;
+    margin-left: 7rem;
+    position: relative;
+    z-index: 1;
+} */
+.our_project_section .our_project_datas {
+    position: relative;
+    max-width: 354px;
+    height: 237px;
+}
+.data_row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our_project_section .ourProjectImg1 {
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    top: -42%;
+}
+.our_project_section .ourProjectImg2 {
+    position: absolute;
+    z-index: 1;
+    top: -22%;
+    right: 5%;
+}
+
+.our_project_section .ourProjectImg3 img {
+    max-width: 249px;
+    width: 100%;
+    height: 232px;
+}
+.our_project_section .ourProjectImg3 {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -48%;
+}
+
+.our_project_section .heartIcon{
+    padding-bottom: 5rem;
+}
+.our_project_section .image_data1 {
+    padding: 24px 24px 8px;
+    background: linear-gradient(180.29deg, rgba(50, 55, 68, 0.4) 0.15%, rgba(250, 163, 68, 0.4) 250.8%);
+    box-shadow: 3px 14px 30px -17px rgb(0 0 0 / 25%);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+}
+.our_project_section .heartIcon p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    margin: 0;
+    padding-top: 8px;
+}
+.our_project_section .image_data_text h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 21px;
+    color: #EFE0CB;    
+}
+.our_project_section .image_data_text h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    margin: 0;
+    color: #EFE0CB;
+}
+
+.our_project_section .our_project_section {
+    margin: 8rem 0;
+    padding: 3rem;
+    background: rgba(50, 55, 68, 0.25);
+    backdrop-filter: blur(8px);
+    border-radius: 50px;
+    border: 1px solid #777;
+}
+
+.our_project_section {
+    padding: 3rem 1rem;
+    background: rgba(50, 55, 68, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 50px;
+    border: 1px solid #777;
+    margin: 5rem 0;
+}
+
+.mobile_view_data {
+    display: none;
+}
+
+
+
+.animation_circle1 img {
+    position: absolute;
+    max-width: 290px;
+    width: 100%;
+    bottom: -6%;
+    left: 14%;
+    animation: circle_rotation infinite linear both;
+    animation-duration: 15s;
+}
+.animation_circle2 img {
+    position: absolute;
+    max-width: 290px;
+    width: 100%;
+    bottom: -1%;
+    left: 15%;
+    animation: circle_rotation infinite linear both;
+    animation-duration: 15s;
+}
+
+.our_project_snow_animation {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+}
+
+.our_project_snow_animation .snowflake:nth-of-type(1) {
+    left: 48%;
+    top: 35%;
+    animation-delay: 1s, 1s;
+}
+.our_project_snow_animation .snowflake:nth-of-type(5) {
+    left: 85%;
+    top: 23%;
+    animation-delay: 8s, 3s;
+}
+.our_project_snow_animation .snowflake:nth-of-type(10) {
+    position: absolute;
+    top: 40%;
+    z-index: 9999;
+}
+
+@media only screen and (max-width: 1440px) {
+    .animation_circle2 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: -6%;
+        left: 1%;
+    }
+    .animation_circle1 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: -1%;
+        left: 2%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .animation_circle1 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: -1%;
+        left: -2%;
+    }
+    .animation_circle2 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: -6%;
+        left: -4%;
+    }
+
+    .our_project_section .ourProjectImg1 img {
+        max-width: 234px;
+        width: 100%;
+        height: 193px;
+    }
+    .our_project_section .ourProjectImg1 {
+        position: absolute;
+        z-index: 1;
+        right: 0%;
+        top: -36%;
+    }
+
+    .ourProjectImg2 img {
+        max-width: 220px;
+        width: 100%;
+    }
+    .our_project_section .ourProjectImg2 {
+        position: absolute;
+        z-index: 1;
+        top: -20%;
+        right: 5%;
+    }
+
+    .our_project_section .ourProjectImg3 img {
+        max-width: 220px;
+        width: 100%;
+        height: 200px;
+    }
+    .our_project_section .ourProjectImg3 {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: -40%;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .our_project_section .our_project_datas {
+        /* position: relative;
+        padding: 12px;
+        max-width: 33.33%;
+        height: 238px;
+        margin: auto;
+        width: 100%; */
+    } 
+    .resposive_padding {
+        /* margin-top: 6rem; */
+        margin-bottom: 8rem;
+    }
+    .data_row {
+        display: flex;
+        justify-content: space-between;
+    }       
+}
+
+@media screen and (max-width: 768px) {
+    .resposive_padding {
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+    }
+    .data_row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .our_project_section .ourProjectImg2 {
+        position: absolute;
+        z-index: 1;
+        top: -20%;
+        right: 2%;
+    }
+
+    .our_project_section .ourProjectImg1 img {
+        max-width: 260px;
+        width: 100%;
+        height: 200px;
+    }
+    /* .resposive_padding {
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+    }
+    .data_row {
+        display: flex;
+        justify-content: center;
+    } */
+
+    .our_project_section .our_project_datas {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ourProjectImg2 img {
+        max-width: 256px;
+        width: 100%;
+        height: 135px;
+    }
+
+    .our_project_section .ourProjectImg3 img {
+        max-width: 246px;
+        width: 100%;
+        height: 226px;
+    }
+    .our_project_section .ourProjectImg3 {
+        position: absolute;
+        z-index: 1;
+        right: -2%;
+        top: -45%;
+    }
+
+    .desktop_view_data{
+        display: none;
+    }
+
+    .mobile_view_data {
+        display: block;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .project_heading {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .animation_circle1 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 2%;
+        left: 0%;
+    }
+    .animation_circle2 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 3%;
+        left: -4%;
+    }
+
+    
+}
+
+@media screen and (max-width: 576px) {
+    .our_project_section .ourProjectImg1 {
+        position: absolute;
+        z-index: 1;
+        right: -3%;
+        top: -37%;
+    }
+
+    .our_project_section .heading_text1 h5 {
+        font-size: 12px;
+        line-height: 11.77px;
+    }
+
+    .our_project_section .heading_text1 h2 {
+        font-size: 31px;
+        line-height: 30.55px;
+    }
+
+    .our_project_snow_animation {
+        width: 30%;
+        height: 50%;
+        position: absolute;
+        right: 0%;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .our_project_section .our_project_datas {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .animation_circle1 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 1%;
+        left: -12%;
+    }
+    .animation_circle2 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 3%;
+        left: -8%;
+    }
+}

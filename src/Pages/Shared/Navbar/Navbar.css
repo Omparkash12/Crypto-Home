@@ -1,0 +1,126 @@
+.brandImage1 {
+    display: none;
+}
+
+.brandImage2 {
+    display: none;
+}
+
+img.brandImage4 {
+    display: none;
+}
+
+.NavbarBG {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(20px);
+    border: 1px solid #777;
+    border-radius: 0 0 30px 30px;
+    border-top: none;
+}
+
+a.wallet {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 12px;
+    border: 1px solid #E38D00;
+    border-radius: 9px;
+}
+
+.toogleNavBtn {
+    background: transparent;
+    border: none;
+}
+
+.toogleNavBtn:focus-visible {
+    outline: none;
+}
+
+.NavbarBG ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 14.83px;
+    position: relative;
+    transition: 0.4s;
+}
+.NavbarBG ul li a:hover {
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.NavbarBG ul li a:active {
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.NavbarBG ul li a:hover:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #FAA344;
+    bottom: -85%;
+    left: 5%;
+    transition: 0.3s;
+}
+.NavbarBG ul li a:active:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #FAA344;
+    bottom: -85%;
+    left: 5%;
+    transition: 0.4s;
+}
+
+
+/* OffCanvas*/
+.off_canvas_nav ul li a {
+    color: #000 !important;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .brandImage3 {
+        display: none;
+    }
+
+    .brandImage2 {
+        display: block;
+    }
+
+    .NavbarBG {
+        background: unset !important;
+        border: none;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .brandImage4 {
+        display: none;
+    }
+
+    .toogleNavBtn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .NavbarBG {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
+    div#offcanvasExample {
+        width: 70%;
+    }
+    .toogleNavBtn {
+        padding: 0;
+    }
+}

@@ -1,0 +1,133 @@
+.communitySetion {
+    text-align: center;
+    background: #F9A242;
+    border-radius: 212.5px;
+    padding: 8rem 0 2.5rem;
+    margin-top: 6rem;
+    position: relative;
+}
+
+.communitySetion h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 50.44px;
+    margin: 0;
+    color: #1C1C1C;
+}
+
+.communitySetion p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 49%;
+    margin: auto;
+    padding: 24px 0;
+    color: #1C1C1C;
+}
+.communitySetion .joinbtn a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 32px;
+    background: #1C1C1C;
+    box-shadow: 12px 12px 11px -4px rgb(0 0 0 / 25%);
+    border-radius: 27px;
+}
+.joinbtn {
+    padding: 12px 0;
+}
+.communitySetion img {
+    position: absolute;
+    top: -25%;
+    left: 43%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .communitySetion img {
+        position: absolute;
+        top: -33%;
+        left: 42%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .communitySetion h1 {
+        font-size: 31px;
+        line-height: 30.44px;
+    } 
+    .communitySetion p {
+        font-size: 18px;
+        line-height: 20px;
+        width: 73%;
+        margin: auto;
+        padding: 24px 0;
+    }
+    .communitySetion .joinbtn a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .communitySetion img {
+        position: absolute;
+        top: -33%;
+        left: 37%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .communitySetion h1 {
+        font-size: 31px;
+        line-height: 30.44px;
+        width: 61%;
+        margin: auto;
+    }
+    .communitySetion p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 73%;
+        margin: auto;
+        padding: 12px 0;
+    }
+    .communitySetion {
+        text-align: center;
+        background: #F9A242;
+        border-radius: 212.5px;
+        padding: 3rem 0 2.5rem;
+        margin-top: 10rem;
+        position: relative;
+    }
+
+    .communitySetion img {
+        position: absolute;
+        top: -58%;
+        left: 35%;
+        width: 25vw;
+    }
+
+    .communitySetion .joinbtn a {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 12px 32px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .communitySetion {
+        padding: 1.5rem 0 1rem;
+        margin-top: 5rem;
+    }
+    .communitySetion img {
+        position: absolute;
+        top: -51%;
+        left: 35%;
+        width: 25vw;
+    }
+}
