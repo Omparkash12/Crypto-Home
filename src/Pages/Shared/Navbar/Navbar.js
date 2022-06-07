@@ -28,7 +28,7 @@ const Navbar = () => {
                             <img src={mobile3lines} alt="" />
                         </span>
                     </button> */}
-                        <Link className="navbar-brand m-0" to="/">
+                        <Link className="navbar-brand m-0" to="/Crypto-Home">
                             <img src={logo} className="img-fluid brandImage1" alt="" />
                             <img src={mobileBrandIcon} className="img-fluid brandImage2" alt="" />
                         </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
                         {/* <img src={logo} className="brandImage3" alt="" />
                         <img src={mobileWallet} className="brandImage4" alt="" /> */}
 
-                        <Link to="/" className="brandImage3 desktopLogo">
+                        <Link to="/Crypto-Home" className="brandImage3 desktopLogo">
                             <img src={logo} alt="" />
                         </Link>
                         <Link to="" className="brandImage4">
