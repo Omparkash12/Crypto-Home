@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Crypto-Home/static/css/main.758c3306.css",
-    "main.js": "/Crypto-Home/static/js/main.98ebbfdf.js",
+    "main.css": "/Crypto-Home/static/css/main.1a988ad3.css",
+    "main.js": "/Crypto-Home/static/js/main.0d9eb565.js",
     "static/js/787.3c7ad834.chunk.js": "/Crypto-Home/static/js/787.3c7ad834.chunk.js",
     "static/media/contactBG2.png": "/Crypto-Home/static/media/contactBG2.1c5a76786b77c0723f56.png",
     "static/media/tokenImg.png": "/Crypto-Home/static/media/tokenImg.d777e55f5d64647e241c.png",
@@ -73,12 +73,12 @@
     "static/media/snow1.svg": "/Crypto-Home/static/media/snow1.dfa92a336eb96f6088b0727d974b5195.svg",
     "static/media/snow3.svg": "/Crypto-Home/static/media/snow3.53db958926d356bae1c41b452ffe15a7.svg",
     "static/media/footerTelegram.svg": "/Crypto-Home/static/media/footerTelegram.51db38a9cecd4ac99ed2a34aa201eed2.svg",
-    "main.758c3306.css.map": "/Crypto-Home/static/css/main.758c3306.css.map",
-    "main.98ebbfdf.js.map": "/Crypto-Home/static/js/main.98ebbfdf.js.map",
+    "main.1a988ad3.css.map": "/Crypto-Home/static/css/main.1a988ad3.css.map",
+    "main.0d9eb565.js.map": "/Crypto-Home/static/js/main.0d9eb565.js.map",
     "787.3c7ad834.chunk.js.map": "/Crypto-Home/static/js/787.3c7ad834.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.758c3306.css",
-    "static/js/main.98ebbfdf.js"
+    "static/css/main.1a988ad3.css",
+    "static/js/main.0d9eb565.js"
   ]
 }
