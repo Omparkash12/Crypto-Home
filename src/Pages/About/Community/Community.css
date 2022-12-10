@@ -90,8 +90,8 @@
         margin: auto;
     }
     .communitySetion p {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 14px;
+        line-height: 18px;
         width: 73%;
         margin: auto;
         padding: 12px 0;
@@ -113,8 +113,8 @@
     }
 
     .communitySetion .joinbtn a {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 14px;
+        line-height: 18px;
         padding: 12px 32px;
     }
 }

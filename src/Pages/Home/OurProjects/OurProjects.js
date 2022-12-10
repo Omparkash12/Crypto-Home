@@ -20,34 +20,34 @@ const OurProjects = () => {
             <div className="animation_circle2"><img src={storyPlanetRing2} alt="" /></div>
             <div className="side_animation"></div>
             <div className="col-lg-5  d-flex align-items-center justify-content-center snow-animation animated banner_home_data2_addedOne our_project_snow_animation">
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow1} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow2} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow2} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow1} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow3} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow2} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow1} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow3} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow2} alt="" />
                 </div>
-                <div class="snowflake">
+                <div className="snowflake">
                     <img src={snow1} alt="" />
                 </div>
             </div>

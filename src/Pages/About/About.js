@@ -9,7 +9,7 @@ import Sponsored from './Sponsored/Sponsored';
 import Footer from '../Shared/Footer/Footer'
 
 // Images
-import planet from '../Images/planet.svg';
+// import planet from '../Images/planet.svg';
 import ThinkingAngels from './ThinkingAngels/ThinkingAngels';
 import Community from './Community/Community';
 import storyPlanetRing1 from '../Images/storyPlanetRing1.png';

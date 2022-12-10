@@ -146,7 +146,7 @@
     position: absolute;
     max-width: 290px;
     width: 100%;
-    bottom: -6%;
+    bottom: 0%;
     left: 14%;
     animation: circle_rotation infinite linear both;
     animation-duration: 15s;
@@ -155,7 +155,7 @@
     position: absolute;
     max-width: 290px;
     width: 100%;
-    bottom: -1%;
+    bottom: 4%;
     left: 15%;
     animation: circle_rotation infinite linear both;
     animation-duration: 15s;
@@ -190,14 +190,14 @@
         position: absolute;
         max-width: 290px;
         width: 100%;
-        bottom: -6%;
+        /* bottom: -6%; */
         left: 1%;
     }
     .animation_circle1 img {
         position: absolute;
         max-width: 290px;
         width: 100%;
-        bottom: -1%;
+        /* bottom: -1%; */
         left: 2%;
     }
 }
@@ -208,14 +208,14 @@
         position: absolute;
         max-width: 290px;
         width: 100%;
-        bottom: -1%;
+        /* bottom: -1%; */
         left: -2%;
     }
     .animation_circle2 img {
         position: absolute;
         max-width: 290px;
         width: 100%;
-        bottom: -6%;
+        /* bottom: -6%; */
         left: -4%;
     }
 
@@ -258,14 +258,6 @@
 
 
 @media screen and (max-width: 991px) {
-    .our_project_section .our_project_datas {
-        /* position: relative;
-        padding: 12px;
-        max-width: 33.33%;
-        height: 238px;
-        margin: auto;
-        width: 100%; */
-    } 
     .resposive_padding {
         /* margin-top: 6rem; */
         margin-bottom: 8rem;
@@ -285,6 +277,21 @@
         display: flex;
         justify-content: center;
     }
+
+    .animation_circle1 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 2%;
+        left: 0%;
+    }
+    .animation_circle2 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 3%;
+        left: -4%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -300,14 +307,6 @@
         width: 100%;
         height: 200px;
     }
-    /* .resposive_padding {
-        margin-top: 6rem;
-        margin-bottom: 8rem;
-    }
-    .data_row {
-        display: flex;
-        justify-content: center;
-    } */
 
     .our_project_section .our_project_datas {
         padding-left: 0px;
@@ -347,7 +346,7 @@
         text-align: center;
     }
 
-    .animation_circle1 img {
+    /* .animation_circle1 img {
         position: absolute;
         max-width: 290px;
         width: 100%;
@@ -360,7 +359,7 @@
         width: 100%;
         bottom: 3%;
         left: -4%;
-    }
+    } */
 
     
 }
@@ -374,7 +373,7 @@
     }
 
     .our_project_section .heading_text1 h5 {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 11.77px;
     }
 
@@ -389,6 +388,21 @@
         position: absolute;
         right: 0%;
         top: 20%;
+    }
+
+    .animation_circle1 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 2%;
+        left: -6%;
+    }
+    .animation_circle2 img {
+        position: absolute;
+        max-width: 290px;
+        width: 100%;
+        bottom: 3%;
+        left: 0%;
     }
 }
 

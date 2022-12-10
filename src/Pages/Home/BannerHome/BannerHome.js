@@ -80,34 +80,34 @@ const BannerHome = () => {
                             <div className="">❆</div>
                         </div> */}
                         <div style={{ backgroundImage: `url(${homeBannerImg})`, }} className="col-lg-5  d-flex align-items-center justify-content-center snow-animation animated banner_home_data2_addedOne">
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❅
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❅
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❆
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❄
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❅
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❆
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❄
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❅
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❆
                             </div>
-                            <div class="snowflake">
+                            <div className="snowflake">
                                 ❄
                             </div>
                         </div>

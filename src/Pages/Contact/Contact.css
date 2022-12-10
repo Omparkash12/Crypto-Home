@@ -60,20 +60,10 @@
     position: relative;
 }
 
-/* .contactBG2{
-    background-image: url(../Images/contactBG2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 .contactCont {
     position: relative;
     padding: 21rem 0 2rem;
     align-items: center;
-}
-
-.socialMediaLinks div {
-    /* padding-right: 16px; */
 }
 
 .socialMediaLinks {
@@ -82,10 +72,6 @@
 
 
 /* conatct form */
-
-.form-floating>.form-control {
-    /* padding: 12px; */
-}
 
 .inputText {
     background: transparent;
@@ -147,7 +133,6 @@
     opacity: 1;
     transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
     color: #F19B2B;
-    /* padding-bottom: 28px; */
     transition: 0.4s;
 }
 
@@ -228,13 +213,6 @@ img.robotHandImg {
 
 
 @media screen and (max-width: 1100px) {
-    /* .contactForm {
-        padding: 2rem 3rem;
-        border-radius: 32px;
-        width: 90%;
-        margin-left: auto;
-    } */
-
     .robotImg {
         position: absolute;
         left: 30.7%;

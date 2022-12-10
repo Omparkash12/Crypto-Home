@@ -129,7 +129,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 18px;
     color: #fff;
 }
 
@@ -152,7 +152,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
     color: #fff;
     margin: 0;
 }
@@ -164,7 +164,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 18px;
     color: #fff;
     padding: 24px 0;
 }
@@ -184,7 +184,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 18px;
     margin: 0;
 }
 
@@ -193,7 +193,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 18px;
     margin: 0;
 }
 
@@ -208,8 +208,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
     color: #4B4B4B;
 }
 
@@ -225,8 +225,8 @@ button.subscribebtn {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
     background: #E38D00;
     border-radius: 10px;
     /* max-width: 92px; */

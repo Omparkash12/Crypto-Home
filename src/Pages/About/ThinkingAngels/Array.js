@@ -11,8 +11,7 @@ import angel10 from '../../Images/angel10.png';
 import angel11 from '../../Images/angel11.png';
 import angel12 from '../../Images/angel12.png';
 
-const Array  = 
-              [
+const Array  = [
         {
             imageUrl: angel1,
             imageName: 'Alyana Rose',

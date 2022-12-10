@@ -83,37 +83,37 @@ const Contact = () => {
                                     <h3>Send a Message</h3>
                                     <div className="row formArea">
                                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                                            <div class="form-floating mb-3">
-                                                <input type="text" class="form-control inputText" id="floatingInput" placeholder="First Name" />
+                                            <div className="form-floating mb-3">
+                                                <input type="text" className="form-control inputText" id="floatingInput" placeholder="First Name" />
                                                 <label for="floatingInput">First Name</label>
                                             </div>
 
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                                            <div class="form-floating mb-3">
-                                                <input type="text" class="form-control inputText" id="floatingInput" placeholder="Last Name" />
+                                            <div className="form-floating mb-3">
+                                                <input type="text" className="form-control inputText" id="floatingInput" placeholder="Last Name" />
                                                 <label for="floatingInput">Last</label>
                                             </div>
 
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                                            <div class="form-floating mb-3">
-                                                <input type="text" class="form-control inputText" id="floatingInput" placeholder="Phone" />
+                                            <div className="form-floating mb-3">
+                                                <input type="text" className="form-control inputText" id="floatingInput" placeholder="Phone" />
                                                 <label for="floatingInput">Phone</label>
                                             </div>
 
                                         </div>
 
                                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                                            <div class="form-floating mb-3">
-                                                <input type="email" class="form-control inputText" id="floatingInput" placeholder="Email" />
+                                            <div className="form-floating mb-3">
+                                                <input type="email" className="form-control inputText" id="floatingInput" placeholder="Email" />
                                                 <label for="floatingInput">Email</label>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="form-floating inputteactArea">
-                                        <textarea class="form-control" placeholder="Your Message" rows="10" cols="50" id="floatingTextarea"></textarea>
+                                    <div className="form-floating inputteactArea">
+                                        <textarea className="form-control" placeholder="Your Message" rows="10" cols="50" id="floatingTextarea"></textarea>
                                         <label for="floatingTextarea">Your Message</label>
                                     </div>
 

@@ -1,0 +1,154 @@
+.Ecosystem_section .ecosystem_data_1 img {
+    max-width: 572px;
+    width: 100%;
+    transform: translateX(-32px);
+}
+
+.Ecosystem_section .ecosystem_data_2 h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 21px;
+    color: #939393;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.Ecosystem_section .ecosystem_data_2 h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 41px;
+    color: #EFE0CB;
+    margin: 0;
+    padding: 1rem;
+}
+
+.Ecosystem_section ul.eco_list li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+}
+
+.Ecosystem_section .eco_circle_1 img {
+    position: absolute;
+    top: -3.5rem;
+    left: -3rem;
+    animation: circle_rotation infinite linear both;
+    animation-duration: 10s;
+}
+
+.Ecosystem_section .eco_circle_2 img {
+    position: absolute;
+    top: -4.5rem;
+    left: -3rem;
+    animation: circle_rotation infinite linear both;
+    animation-duration: 10s;
+}
+
+.Ecosystem_section .ecosystem_data_2 {
+    padding-left: 2rem;
+}
+
+.Ecosystem_section .ecosystem_data_1 {
+    padding-right: 2rem;
+}
+.Ecosystem_section .our_project_ellipse img {
+    position: absolute;
+    width: 88%;
+    right: -18%;
+    top: -590%;
+}
+
+@media screen and (max-width:768px) {
+    .Ecosystem_section .ecosystem_data_1 {
+        padding-right: 12px;
+        padding-top: 2rem;
+    }
+
+    .Ecosystem_section .ecosystem_data_2 {
+        padding-left: 12px;
+    }
+
+    .Ecosystem_section .ecosystem_data_2 h4 {
+        text-align: center;
+    }
+
+    .Ecosystem_section .ecosystem_data_2 h1 {
+        text-align: center;
+    }
+
+    .Ecosystem_section .eco_circle_1 img {
+        display: none;
+    }
+
+    .Ecosystem_section .eco_circle_2 img {
+        display: none;
+    }
+
+    .Ecosystem_section .ecosystem_data {
+        flex-direction: column-reverse;
+        /* padding: 3rem 0 5rem; */
+    }
+
+    .Ecosystem_section .our_project_ellipse img {
+        position: absolute;
+        width: 60%;
+        right: -18%;
+        top: -280%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .Ecosystem_section .ecosystem_data_2 h1 {
+        font-size: 31px;
+        line-height: 31px;
+        padding: 12px 0;
+        width: 70%;
+        margin: auto;
+    }
+
+    .Ecosystem_section .ecosystem_data_2 h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .Ecosystem_section .ecosystem_data_1 img {
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(42px);
+    }
+
+    .Ecosystem_section .ecosystem_data_1 {
+        padding-top: 2rem;
+    }
+
+    .Ecosystem_section .eco_list {
+        padding-left: 1rem;
+    }
+
+    .Ecosystem_section .ecosystem_data_2 h1 {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .Ecosystem_section .ecosystem_data_1 img {
+        transform: translateX(-29px);
+    }
+}
+@media screen and (max-width:428px) {
+    .Ecosystem_section .our_project_ellipse img {
+        position: absolute;
+        width: 80%;
+        right: -24%;
+        top: 290%;
+    }
+    
+}
